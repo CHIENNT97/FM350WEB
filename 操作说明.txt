@@ -1,0 +1,15 @@
+把install、webui.tar.gz 上传到tmp目录下
+
+
+cd /tmp
+chmod 777 /tmp/install.sh
+./install.sh
+
+访问后台地址ip/350 比如192.168.1.1/350
+查看AT返回信息 http://192.168.15.1/350/data.txt
+
+ https://mirrors.tencent.com/lede/snapshots/targets/mediatek/filogic/packages/comgt_0.32-r36_aarch64_cortex-a53.ipk
+ https://mirrors.tencent.com/lede/snapshots/packages/aarch64_cortex-a53/base/chat_2.5.1-r1_aarch64_cortex-a53.ipk
+
+关闭拨号 --高级菜单--开机锁频--NOCELL
+
